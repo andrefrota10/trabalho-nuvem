@@ -4,12 +4,12 @@ const PORT = process.env.PORT || 3000;
 
 
 app.get('/', (req, res) => {
-    res.send('<h1>Bem-vindo à Home!</h1><p>Esta é a primeira rota.</p>');
+    res.send('<h1>Bem-vindo a Home!</h1><p>Esta e a primeira rota.</p>');
 });
 
 
 app.get('/sobre', (req, res) => {
-    res.send('<h1>Sobre o Projeto</h1><p>Aplicação Node.js para o trabalho de nuvem.</p>');
+    res.send('<h1>Sobre o Projeto</h1><p>Aplicacao Node.js para o trabalho de nuvem.</p>');
 });
 
 
